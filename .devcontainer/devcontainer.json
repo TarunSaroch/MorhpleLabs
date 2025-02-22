@@ -1,0 +1,14 @@
+{
+  "name": "Python Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "label": "Flask App",
+      "onAutoForward": "notify",
+      "visibility": "public"
+    }
+  },
+  "shutdownAction": "none",
+  "idleTimeoutMinutes": 240
+}
